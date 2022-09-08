@@ -1,5 +1,5 @@
 
-echo -e 'touch ~/fresh.txt
+echo 'touch ~/fresh.txt
 freshfetch < ~/fresh.txt
 cat ~/fresh.txt
 rm ~/fresh.txt' >> ~/.bashrc
