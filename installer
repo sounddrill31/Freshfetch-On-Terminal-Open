@@ -1,0 +1,3 @@
+dir=$PWD
+mkdir ~/freshrun
+cp -r -v $PWD/* ~/freshrun
