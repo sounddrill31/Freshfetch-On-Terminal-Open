@@ -5,3 +5,14 @@ sed -i '1s/^/touch ~/fresh.txt
 freshfetch < ~/fresh.txt
 cat ~/fresh.txt
 rm ~/fresh.txt\n/' ~/.bashrc
+
+
+
+
+touch ~/fresh.txt && freshfetch < ~/fresh.txt && cat ~/fresh.txt && rm ~/fresh.txt
+
+freshfetch < ~/fresh.txt
+cat ~/fresh.txt
+rm ~/fresh.txt
+
+
